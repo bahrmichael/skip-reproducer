@@ -4,7 +4,7 @@ on:
 
 jobs:
   check:
-    if: false
+    if: true
     runs-on: ubuntu-latest
     steps:
       - run: 'echo "Hello"'
